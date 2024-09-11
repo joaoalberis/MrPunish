@@ -1,0 +1,28 @@
+# CONFIGS - FLAGS
+# %reason% - flag responsible for presenting the reason
+# %player% - flag responsible for presenting the player/ip
+# %player_executor% - flag responsible for presenting the player that executes the command
+# %time% - flag responsible for presenting the time punish
+# %remaining_time% - flag responsible for presenting for remaining time
+
+# GENERAL MESSAGES
+expired_punishment: "&bYour punishment is over"
+
+# MESSAGES FOR PLAYER
+kick_message_player: "&4You were kicked from the server by %player_executor%\n&cReason - %reason%"
+ban_message_player: "&4You were banned from the server by %player_executor%\n&cReason - %reason%\n&cTime - %time%"
+banip_message_player: "&4your ip is banned from the server\n&cReason - %reason%\n&cTime - %time%"
+unban_message_player: "%player% was unbanned by %player_executor%"
+unmute_message_player: "%player% was unmuted by %player_executor%"
+unbanip_message_player: "%player% was unbanned by %player_executor%"
+mute_message_player: "&4You are muted %time%"
+tempmute_message_player: "&4You are muted for %time%\n&cRemaining time - %remaining_time%"
+tempban_message_player: "&4You are temporarily banned for %time%\n&cRemaining time - %remaining_time%"
+
+# MENSAGENS PARA SERVIDOR
+kick_message_server: "&4%player% was kicked from the server by %player_executor%\n&cReason - %reason%"
+ban_message_server: "&4%player% was banned from the server by %player_executor%\n&cReason - %reason%\n&cTime - %time%"
+mute_message_server: "&4%player% was muted from the server by %player_executor%\n&cReason - %reason%\n&cTime - %time%"
+tempmute_message_server: "&4%player% was muted from the server by %player_executor%\n&cReason - %reason%\n&cTime - %time%"
+tempban_message_server: "&4%player% was banned from the server by %player_executor%\n&cReason - %reason%\n&cTime - %time%"
+

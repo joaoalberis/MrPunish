@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MrPunish:jar">
+    <output-path>$PROJECT_DIR$/../server-1.20/plugins</output-path>
+    <root id="archive" name="MrPunish.jar">
+      <element id="module-output" name="MrPunish" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,5 @@
+com\github\joaoalberis\mrpunish\commands\Ban.class
+com\github\joaoalberis\mrpunish\commands\Kick.class
+com\github\joaoalberis\mrpunish\commands\TempBan.class
+com\github\joaoalberis\mrpunish\MrPunish.class
+com\github\joaoalberis\mrpunish\commands\Mute.class

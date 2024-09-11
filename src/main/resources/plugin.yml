@@ -1,0 +1,59 @@
+name: MrPunish
+version: '${project.version}'
+main: com.github.joaoalberis.mrpunish.MrPunish
+api-version: '1.20'
+authors: [MrJoao(Joao alberis)]
+description: This is plugin about punish
+commands:
+  kick:
+    aliases:
+      - mrkick
+    description: "Use to remove a player from server"
+    permission: "mrpunish.kick"
+  ban:
+    aliases:
+      - mrban
+    description: "Use to ban a player from server"
+    permission: "mrpunish.ban"
+  tempban:
+    aliases:
+      - mrtempban
+    description: "Use to tempban a player from server"
+    permission: "mrpunish.tempban"
+  mute:
+    aliases:
+      - mrmute
+    description: "Use to mute a player from server"
+    permission: "mrpunish.mute"
+  tempmute:
+    aliases:
+      - mrtempmute
+    description: "Use to mute a player from server"
+    permission: "mrpunish.tempmute"
+  banip:
+    aliases:
+      - mrbanip
+    description: "Use to ban a IP from server"
+    permission: "mrpunish.banip"
+  unban:
+    aliases:
+      - mrunban
+    description: "Use to remove a ban"
+    permission: "mrpunish.unban"
+  unbanip:
+    aliases:
+      - mrunbanip
+    description: "Use to remove a ban ip"
+    permission: "mrpunish.unbanip"
+  unmute:
+    aliases:
+      - mrunmute
+    description: "Use to remove a mute"
+    permission: "mrpunish.unmute"
+  historypunish:
+    aliases:
+      - mrview
+    description: "Use to see the player's punishments"
+    permission: "mrpunish.view"
+  mrtime:
+    description: "Use to see the time formats available for punishment"
